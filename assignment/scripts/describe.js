@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we create a variable called name and give it a string value of Dane
+// then check to see if name (Dane) is equal to Mary
+// if yes, log Hi, Mary
+//if no, log How do you do? - this is expected outcome
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// create a variable called secret with no value and create a variable called code and 
+// give number value of 123. if code is equal to 123, give secret a string value of 
+// super, and multiply code by 2 and assign new value to code (246). then if code is
+// greater than 250 change secret value to a string of 'duper' then log value of secret
+// expect outcome to be "super"
 
 //CODE
 /*
@@ -70,10 +71,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// create variable isStudent with boolean true, var age with number value 34, var zip 
+// with number value 55407. check student is true or false AND zip is greater than 80000
+// log statement or else if not a student and age is less than 30 log statement or else 
+// is a student true log statement, finaly if all the above is false, log last statement
+// expected "Welcome to Prime!"
 
 //CODE
 /*
