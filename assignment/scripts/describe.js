@@ -132,12 +132,12 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-// colorOne and colorTwo values are flipped
+// FIX - colorOne and colorTwo values are flipped
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
-//only has colorOne = purple, need to add colorTwo = 'purple';
+// FIX - only has colorOne = purple, need to add colorTwo = 'purple';
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -151,10 +151,10 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-//need to switch || (or) to && (and) as described
-//also time is set as a const, so it will always be greater than 4.
-//if it should be const, could remove the time condition, otherwise 
-//change const to let to allow for change after init
+// FIX - need to switch || (or) to && (and) as described
+// FIX - also time is set as a const, so it will always be greater than 4.
+// FIX - if it should be const, could remove the time condition, otherwise 
+// FIX - change const to let to allow for change after init
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -168,14 +168,13 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-// while technically checks the same thing it is flipped from description
-// change to (age >= minAge)
-// ultimatly the issue is the log result, flip the results so the first log is 'enter' 
-// and the second log is 'no entry'
+// FIX - while technically checks the same thing it is flipped from description
+// FIX - change to (age >= minAge)
+// FIX - ultimatly the issue is the log result, flip the results so the first log is 'enter' 
+// FIX - and the second log is 'no entry'
 if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
 }
 */
-
